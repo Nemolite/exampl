@@ -24,3 +24,70 @@
 .reg{
 	float:right;
 }
+
+
+/* Вот пример адаптации */
+/* Пусть у нас имеется блок */
+
+.block {
+   width: 600px;
+   height: 300px; /* Зажаем фиксированные размеры блока */
+   margin: 0 auto; /* Перемещаем его в центр */
+   border:1px solid red; /* Что бы он был виден обромляем бордюром красным */
+   margin-top: 20px; /* Отделяем от меню */ 
+}
+
+
+@media only screen and (min-width : 600px) and (max-width : 799px) { 
+   
+.block {
+   width: 500px;
+   height: 300px; /* Зажаем фиксированные размеры блока */
+   margin: 0 auto; /* Перемещаем его в центр */
+   border:1px solid red; /* Что бы он был виден обромляем бордюром красным */
+   margin-top: 20px; /* Отделяем от меню */ 
+}
+
+
+}
+
+
+@media only screen and (min-width : 400px) and (max-width : 599px) { 
+   
+.block {
+   width: 400px;
+   height: 300px; /* Зажаем фиксированные размеры блока */
+   margin: 0 auto; /* Перемещаем его в центр */
+   border:1px solid red; /* Что бы он был виден обромляем бордюром красным */
+   margin-top: 20px; /* Отделяем от меню */ 
+}
+
+
+}
+
+@media only screen and (min-width : 200px) and (max-width : 399px) { 
+   
+.block {
+   width: 200px;
+   height: 300px; /* Зажаем фиксированные размеры блока */
+   margin: 0 auto; /* Перемещаем его в центр */
+   border:1px solid red; /* Что бы он был виден обромляем бордюром красным */
+   margin-top: 20px; /* Отделяем от меню */ 
+}
+
+
+}
+
+
+@media only screen and (min-width : 50px) and (max-width : 199px) { 
+   
+.block {
+   width: 50px;
+   height: 300px; /* Зажаем фиксированные размеры блока */
+   margin: 0 auto; /* Перемещаем его в центр */
+   border:1px solid red; /* Что бы он был виден обромляем бордюром красным */
+   margin-top: 20px; /* Отделяем от меню */ 
+}
+
+
+}
