@@ -45,7 +45,8 @@
    height: 300px; /* Зажаем фиксированные размеры блока */
    margin: 0 auto; /* Перемещаем его в центр */
    border:1px solid red; /* Что бы он был виден обромляем бордюром красным */
-   margin-top: 20px; /* Отделяем от меню */ 
+   margin-top: 20px; /* Отделяем от меню */
+   background-color: #00A8FD
 }
 
 
@@ -60,6 +61,7 @@
    margin: 0 auto; /* Перемещаем его в центр */
    border:1px solid red; /* Что бы он был виден обромляем бордюром красным */
    margin-top: 20px; /* Отделяем от меню */ 
+   background-color: #343D46
 }
 
 
@@ -73,6 +75,7 @@
    margin: 0 auto; /* Перемещаем его в центр */
    border:1px solid red; /* Что бы он был виден обромляем бордюром красным */
    margin-top: 20px; /* Отделяем от меню */ 
+    background-color: #011A39
 }
 
 
@@ -87,6 +90,7 @@
    margin: 0 auto; /* Перемещаем его в центр */
    border:1px solid red; /* Что бы он был виден обромляем бордюром красным */
    margin-top: 20px; /* Отделяем от меню */ 
+   background-color: #000;
 }
 
 
